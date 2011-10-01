@@ -55,7 +55,7 @@ class FeatureVectorGenerator
         # load the ontology
         begin
             @manager     = OWLManager.createOWLOntologyManager()
-            file         = JavaIO::File.new("#{File.expand_path(File.join(File.dirname(__FILE__),"../rdf/"))}/genetox-instances.owl")
+            file         = JavaIO::File.new("#{File.expand_path(File.join(File.dirname(__FILE__),"../ontologies/"))}/genetoxinferred.owl")
             @ontology    = @manager.loadOntologyFromOntologyDocument(file)
             @root        = @manager.getOWLDataFactory.getOWLClass(IRI.create("http://semanticscience.org/resource/genetox:Genetox_0047"))
         rescue NativeException => e
