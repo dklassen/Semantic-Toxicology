@@ -1,0 +1,1733 @@
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+
+Ontology: <http://semanticscience.org/resource/genetox>
+<EOF>
+
+AnnotationProperty: rdfs:label
+
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0109>
+
+    Annotations: 
+        rdfs:label "Salmonella typhimurium, Serratia marcesens"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0172>
+
+    Annotations: 
+        rdfs:label "Sperm morphology; F1 mouse"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0034>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0170>
+
+    Annotations: 
+        rdfs:label "Sperm morphology; Human"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0034>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0171>
+
+    Annotations: 
+        rdfs:label "Sperm morphology; Rabbit"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0034>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0104>
+
+    Annotations: 
+        rdfs:label "Genetox_0104"@,
+        rdfs:label "Salmonella typhimurium, Escherichia coli, Serratia marcesens, human lymphoid cells, Saccharomyces cerevisiae, Chinese hamster lung (V79) cells, mouse leukemia cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0103>
+
+    Annotations: 
+        rdfs:label "Genetox_0103"@,
+        rdfs:label "Salmonella typhimurium, Escherichia coli, Serratia marcesens, Neurospora crassa, Saccharomyces cerevisiae, Chinese hamster lung (V79) and ovary (CHO) cells, mouse leukemia cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0030>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, host-mediated assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0102>
+
+    Annotations: 
+        rdfs:label "Genetox_0102"@,
+        rdfs:label "Salmonella typhimurium, Escherichia coli, Serratia marcesens, Chinese hamster lung (V79) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0101>
+
+    Annotations: 
+        rdfs:label "Salmonella typhimurium, Escherichia coli, Neurospora crassa, Saccharomyces cerevisiae, Chinese hamster ovary (CHO) and lung (V79) cells, mouse leukemia cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0033>
+
+    Annotations: 
+        rdfs:label "Micronucleus test in vitro, chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0006>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0108>
+
+    Annotations: 
+        rdfs:label "Genetox_0108"@,
+        rdfs:label "Salmonella typhimurium, Serratia marcesens, Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0034>
+
+    Annotations: 
+        rdfs:label "Sperm morphology"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0046>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0107>
+
+    Annotations: 
+        rdfs:label "Genetox_0107"@,
+        rdfs:label "Salmonella typhimurium, Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0031>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation at the HPRT or ouabain locus"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0106>
+
+    Annotations: 
+        rdfs:label "Genetox_0106"@,
+        rdfs:label "Salmonella typhimurium, Saccharomyces cerevisiae, human leukocytes and diploid fibroblasts"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0105>
+
+    Annotations: 
+        rdfs:label "Genetox_0105"@,
+        rdfs:label "Salmonella typhimurium, Escherichia coli, Serratia marcesens"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0032>
+
+    Annotations: 
+        rdfs:label "Rec-assay, spot test, DNA effects (bacterial DNA repair)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0045>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0038>
+
+    Annotations: 
+        rdfs:label "Aneuploidy, whole sex chromosome loss, chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0027>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0037>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, mitotic recombination and gene conversion, host-mediated assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0036>
+
+    Annotations: 
+        rdfs:label "Heritable translocation test, chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0003>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0035>
+
+    Annotations: 
+        rdfs:label "Mitotic recombination"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0004>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0100>
+
+    Annotations: 
+        rdfs:label "Genetox_0100"@,
+        rdfs:label "Salmonella typhimurium and Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0039>
+
+    Annotations: 
+        rdfs:label "Aneuploidy, sex chromosome gain, chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0027>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0040>
+
+    Annotations: 
+        rdfs:label "Spot test, gene mutation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0041>
+
+    Annotations: 
+        rdfs:label "Cell transformation, focus assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0013>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0042>
+
+    Annotations: 
+        rdfs:label "Unscheduled DNA synthesis (UDS) in vivo; DNA effects"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0044>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0043>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, mitotic recombination and gene conversion, DNA effects, host-mediated assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0044>
+
+    Annotations: 
+        rdfs:label "Unscheduled DNA synthesis (UDS)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0045>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0045>
+
+    Annotations: 
+        rdfs:label "DNA effects"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0047>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0047>
+
+    Annotations: 
+        rdfs:label "Gene-Tox assay system"@en
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0046>
+
+    Annotations: 
+        rdfs:label "ancillary tests"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0047>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0049>
+
+    Annotations: 
+        rdfs:label "Genetox_0049"@,
+        rdfs:label "Mammalian polychromatic erythrocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0048>
+
+    Annotations: 
+        rdfs:label "Gene-Tox test system"@en
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0150>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation; Neurospora crassa"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0151>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation; Aspergillus nidulans"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0154>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation at the HPRT locus; Chinese hamster ovary (CHO) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0029>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0155>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation at the thymidine kinase (TK) locus; chromosome aberrations; Mouse lymphoma (L5178Y) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0001>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0152>
+
+    Annotations: 
+        rdfs:label "Foward gene mutation; Schizosaccharomyces pombe"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0153>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation at the HPRT or ouabain locus; Chinese hamster lung (V79) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0031>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0055>
+
+    Annotations: 
+        rdfs:label "Rodents"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0056>
+
+    Annotations: 
+        rdfs:label "Genetox_0056"@,
+        rdfs:label "Nonhuman"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0053>
+
+    Annotations: 
+        rdfs:label "Chinese hamster lung (V79) cells"@,
+        rdfs:label "Genetox_0053"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0054>
+
+    Annotations: 
+        rdfs:label "Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0051>
+
+    Annotations: 
+        rdfs:label "Genetox_0051"@,
+        rdfs:label "Mouse"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0052>
+
+    Annotations: 
+        rdfs:label "Drosophila melanogaster"@,
+        rdfs:label "Genetox_0052"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0050>
+
+    Annotations: 
+        rdfs:label "Escherichia coli polA (W3119 vs P3478)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0059>
+
+    Annotations: 
+        rdfs:label "Fischer rat embryo (SA7/RE) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0058>
+
+    Annotations: 
+        rdfs:label "Salmonella typhimurium"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0057>
+
+    Annotations: 
+        rdfs:label "Salmonella typhimurium (one or more of the five standard strains: TA98, TA100, TA1535, TA1537, and TA1538)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0159>
+
+    Annotations: 
+        rdfs:label "Reverse gene mutation; Aspergillus nidulans"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0008>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0158>
+
+    Annotations: 
+        rdfs:label "Reverse gene mutation; Neurospora crassa"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0008>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0157>
+
+    Annotations: 
+        rdfs:label "Reverse gene mutation; Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0008>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0156>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation, host-mediated assay; Chinese hamster lung (V79) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0014>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0160>
+
+    Annotations: 
+        rdfs:label "Reverse gene mutation; Schizosaccharomyces pombe"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0008>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0161>
+
+    Annotations: 
+        rdfs:label "Histidine reverse gene mutation, Ames assay, Salmonella typhimurium (one or more of the five standard strains: TA98, TA100, TA1535, TA1537, and TA1538)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0022>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0162>
+
+    Annotations: 
+        rdfs:label "Tryptophan reverse gene mutation; Escherichia coli WP2 UVRA"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0026>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0163>
+
+    Annotations: 
+        rdfs:label "Tryptophan reverse gene mutation; Escherichia coli WP2"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0026>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0164>
+
+    Annotations: 
+        rdfs:label "Sex-linked recessive lethal gene mutation; Drosophila melanogaster"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0005>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0165>
+
+    Annotations: 
+        rdfs:label "Specific locus test, gene mutation; Mouse"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0002>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0166>
+
+    Annotations: 
+        rdfs:label "Spot test, gene mutation; Mouse"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0040>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0064>
+
+    Annotations: 
+        rdfs:label "Mouse prostate cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0065>
+
+    Annotations: 
+        rdfs:label "Fischer rat embryo (RLV/1706) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0066>
+
+    Annotations: 
+        rdfs:label "Genetox_0066"@,
+        rdfs:label "Syrian hamster embryo (SA7/SHE) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0067>
+
+    Annotations: 
+        rdfs:label "Mouse lymphoma (L5178Y) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0060>
+
+    Annotations: 
+        rdfs:label "Mouse (BALB/c-3T3) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0061>
+
+    Annotations: 
+        rdfs:label "Genetox_0061"@,
+        rdfs:label "Syrian hamster embryo (SHE) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0062>
+
+    Annotations: 
+        rdfs:label "Mouse (C3H/10T1/2) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0063>
+
+    Annotations: 
+        rdfs:label "Genetox_0063"@,
+        rdfs:label "Mouse embryo (AKR/ME) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0069>
+
+    Annotations: 
+        rdfs:label "Genetox_0069"@,
+        rdfs:label "Human lymphocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0068>
+
+    Annotations: 
+        rdfs:label "Tradescantia species"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0168>
+
+    Annotations: 
+        rdfs:label "Sperm morphology; Mouse"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0034>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0167>
+
+    Annotations: 
+        rdfs:label "In vivo carcinogenicity studies; Nonhuman"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0009>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0169>
+
+    Annotations: 
+        rdfs:label "Sperm morphology; Rat"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0034>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0006>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vivo; Nonhuman"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0021>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0005>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vivo; Human lymphocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0021>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0004>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vitro; Human embryo lung fibroblasts (WI-38 cells)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0007>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0003>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vitro; Nonhuman"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0007>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0009>
+
+    Annotations: 
+        rdfs:label "Cell transformation, viral enhanced; Fischer rat embryo (SA7/RE) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0010>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0008>
+
+    Annotations: 
+        rdfs:label "Cell transformation, viral enhanced; Syrian hamster embryo (SA7/SHE) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0010>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0007>
+
+    Annotations: 
+        rdfs:label "Cell transformation, viral enhanced; Fisher rat embryo (RLV/1706) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0010>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0079>
+
+    Annotations: 
+        rdfs:label "Arabidopsis species"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0133>
+
+    Annotations: 
+        rdfs:label "Gene mutation; Glycine max (soybean)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0132>
+
+    Annotations: 
+        rdfs:label "Unscheduled DNA synthesis (UDS) in vivo; DNA effects; Mouse germ cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0042>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0131>
+
+    Annotations: 
+        rdfs:label "Unscheduled DNA synthesis (UDS) in vitro, DNA effects; Rat primary hepatocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0012>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0130>
+
+    Annotations: 
+        rdfs:label "Unscheduled DNA synthesis (UDS) in vitro, DNA effects; Human diploid fibroblasts"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0012>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0072>
+
+    Annotations: 
+        rdfs:label "Genetox_0072"@,
+        rdfs:label "Human diploid fibroblasts"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0071>
+
+    Annotations: 
+        rdfs:label "Rat primary hepatocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0074>
+
+    Annotations: 
+        rdfs:label "Mammalian germ cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0138>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, body fluid assay; Salmonella typhimurium"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0139>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0139>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, body fluid assay; Salmonella typhimurium and Escherichia coli"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0015>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0073>
+
+    Annotations: 
+        rdfs:label "Mouse germ cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0076>
+
+    Annotations: 
+        rdfs:label "Genetox_0076"@,
+        rdfs:label "Vicia faba"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0136>
+
+    Annotations: 
+        rdfs:label "Gene mutation; Hordeum vulgare (barley)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0075>
+
+    Annotations: 
+        rdfs:label "Allium cepa"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0137>
+
+    Annotations: 
+        rdfs:label "Gene mutation; Zea mays (corn)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0078>
+
+    Annotations: 
+        rdfs:label "Human lymphocytes or leukocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0134>
+
+    Annotations: 
+        rdfs:label "Gene mutation; Arabidopsis species"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0077>
+
+    Annotations: 
+        rdfs:label "Genetox_0077"@,
+        rdfs:label "Mammalian oocytes or early embryo"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0135>
+
+    Annotations: 
+        rdfs:label "Gene mutation; Tradescantia species"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0001>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vitro; Human"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0007>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0002>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vitro; Human lymphocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0007>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0070>
+
+    Annotations: 
+        rdfs:label "Genetox_0070"@,
+        rdfs:label "Human"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0015>
+
+    Annotations: 
+        rdfs:label "Cell transformation, focus assay; Syrian hamster embryo (SHE) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0041>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0014>
+
+    Annotations: 
+        rdfs:label "Cell transformation, clonal assay; Syrian hamster embryo (SHE) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0018>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0016>
+
+    Annotations: 
+        rdfs:label "Aneuploidy, partial sex chromosome loss, chromosome aberrations ; Drosophila melanogaster"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0024>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0001>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation at the thymidine kinase (TK) locus; chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0142>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, host-mediated assay; Salmonella typhimurium, Escherichia coli, Serratia marcesens"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0030>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0141>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, host-mediated assay; Salmonella typhimurium, Serratia marcesens"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0030>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0144>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, host-mediated assay; Escherichia coli"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0030>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0143>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, host-mediated assay; Salmonella typhimurium, Escherichia coli, Serratia marcesens, Chinese hamster lung (V79) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0030>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0140>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, host-mediated assay; Salmonella typhimurium"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0030>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0149>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation; Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0085>
+
+    Annotations: 
+        rdfs:label "Bacillus subtilis (H17 vs M45)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0084>
+
+    Annotations: 
+        rdfs:label "Genetox_0084"@,
+        rdfs:label "Glycine max (soybean)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0083>
+
+    Annotations: 
+        rdfs:label "Genetox_0083"@,
+        rdfs:label "Neurospora crassa"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0082>
+
+    Annotations: 
+        rdfs:label "Aspergillus nidulans"@,
+        rdfs:label "Genetox_0082"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0089>
+
+    Annotations: 
+        rdfs:label "Ehrlich ascites tumor (mouse) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0145>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, lethal mutation, mitotic recombination and gene conversion, DNA effects, host-mediated assay ; Salmonella typhimurium, Escherichia coli, Serratia marcesens, Neurospora crassa, Saccharomyces cerevisiae, Chinese hamster lung (V79) and ovary (CHO) cells, mouse leukemia cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0020>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0088>
+
+    Annotations: 
+        rdfs:label "Ehrlich ascites tumor (mouse) cells, Walker carcinoma (rat) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0146>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, mitotic recombination and gene conversion, DNA effects, host-mediated assay; Salmonella typhimurium, Serratia marcesens, Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0043>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0087>
+
+    Annotations: 
+        rdfs:label "Chinese hamster lung (V79)"@,
+        rdfs:label "Genetox_0087"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0147>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, mitotic recombination and gene conversion, DNA effects, host-mediated assay; Salmonella typhimurium, Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0043>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0148>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, mitotic recombination and gene conversion, host-mediated assay; Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0037>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0086>
+
+    Annotations: 
+        rdfs:label "Chinese hamster ovary (CHO)"@,
+        rdfs:label "Genetox_0086"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0002>
+
+    Annotations: 
+        rdfs:label "Specific locus test, gene mutation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0003>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0047>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0004>
+
+    Annotations: 
+        rdfs:label "Mitotic recombination or gene conversion"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0003>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0005>
+
+    Annotations: 
+        rdfs:label "Sex-linked recessive lethal gene mutation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0010>
+
+    Annotations: 
+        rdfs:label "Cell transformation; Mouse (BLAB/c-3T3) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0013>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0006>
+
+    Annotations: 
+        rdfs:label "Micronucleus test, chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0003>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0081>
+
+    Annotations: 
+        rdfs:label "Nonhuman bone marrow"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0011>
+
+    Annotations: 
+        rdfs:label "Cell transformation; Mouse (C3H/10T1/2) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0013>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0007>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vitro"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0019>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0080>
+
+    Annotations: 
+        rdfs:label "Genetox_0080"@,
+        rdfs:label "Hordeum vulgare (barley)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0008>
+
+    Annotations: 
+        rdfs:label "Reverse gene mutation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0012>
+
+    Annotations: 
+        rdfs:label "Cell transformation; Mouse embryo (AKR/ME) cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0013>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0009>
+
+    Annotations: 
+        rdfs:label "In vivo carcinogenicity studies"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0047>
+    
+    
+Class: <http://semanticscience.org/ontology/genetox:Genetox_0013>
+
+    Annotations: 
+        rdfs:label "Cell transformation; Mouse prostate cells"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0013>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0012>
+
+    Annotations: 
+        rdfs:label "Unscheduled DNA synthesis (UDS) in vitro, DNA effects"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0044>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0011>
+
+    Annotations: 
+        rdfs:label "Rec-assay, DNA effects (bacterial DNA repair)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0045>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0010>
+
+    Annotations: 
+        rdfs:label "Cell transformation, viral enhanced"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0013>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0111>
+
+    Annotations: 
+        rdfs:label "Aneuploidy, sex chromosome gain, chromosome aberrations; Drosophila melanogaster"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0039>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0110>
+
+    Annotations: 
+        rdfs:label "Schizosaccharomyces pombe"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0114>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations in vitro; Nonhuman"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0028>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0098>
+
+    Annotations: 
+        rdfs:label "Genetox_0098"@,
+        rdfs:label "Rabbit"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0097>
+
+    Annotations: 
+        rdfs:label "Plant"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0115>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations in vitro; Human cell culture"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0028>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0112>
+
+    Annotations: 
+        rdfs:label "Aneuploidy, whole sex chromosome loss, chromosome aberrations; Drosophila melanogaster"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0038>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0099>
+
+    Annotations: 
+        rdfs:label "Genetox_0099"@,
+        rdfs:label "Salmonella typhimurium and Escherichia coli"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0113>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations in vitro; Human lymphocytes or leukocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0028>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0094>
+
+    Annotations: 
+        rdfs:label "F1 mouse"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0118>
+
+    Annotations: 
+        rdfs:label "Heritable translocation test, chromosome aberrations; Mouse"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0036>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0093>
+
+    Annotations: 
+        rdfs:label "Escherichia coli, Saccharomyces cerevisiae, Neurospora crassa, human lymphoid cells"@,
+        rdfs:label "Genetox_0093"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0119>
+
+    Annotations: 
+        rdfs:label "Heritable translocation test, chromosome aberrations; Drosophila melanogaster"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0036>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0096>
+
+    Annotations: 
+        rdfs:label "Genetox_0096"@,
+        rdfs:label "Mammalian cell culture, nonhuman"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0116>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations, in vivo; Nonhuman bone marrow"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0023>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0095>
+
+    Annotations: 
+        rdfs:label "Human cell culture"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0117>
+
+    Annotations: 
+        rdfs:label "Dominant lethal test; Rodents"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0025>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0019>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0045>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0090>
+
+    Annotations: 
+        rdfs:label "Escherichia coli WP2 UVRA"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0017>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0092>
+
+    Annotations: 
+        rdfs:label "Escherichia coli polA (W3110 vs P3478)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0018>
+
+    Annotations: 
+        rdfs:label "Cell transformation, clonal assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0013>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0091>
+
+    Annotations: 
+        rdfs:label "Escherichia coli WP2"@,
+        rdfs:label "Genetox_0091"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0015>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, body fluid assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0016>
+
+    Annotations: 
+        rdfs:label "Gene mutation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0047>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0013>
+
+    Annotations: 
+        rdfs:label "Cell transformation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0047>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0014>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation, host-mediated assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0021>
+
+    Annotations: 
+        rdfs:label "Sister-chromatid exchange (SCE) in vivo"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0019>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0020>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, lethal mutation, mitotic recombination and gene conversion, DNA effects, host-mediated assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0023>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations, in vivo"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0003>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0022>
+
+    Annotations: 
+        rdfs:label "Histidine reverse gene mutation, Ames assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0008>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0120>
+
+    Annotations: 
+        rdfs:label "Micronucleus test, chromosome aberrations; Mammalian polychromatic erythrocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0006>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0122>
+
+    Annotations: 
+        rdfs:label "Micronucleus test in vitro, chromosome aberrations; Human lympocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0033>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0121>
+
+    Annotations: 
+        rdfs:label "Micronucleus test, chromosome aberrations; Plant"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0006>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0123>
+
+    Annotations: 
+        rdfs:label "Micronucleus test in vitro, chromosome aberrations; Mammalian cell culture, nonhuman"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0033>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0124>
+
+    Annotations: 
+        rdfs:label "Mitotic recombination or gene conversion; Sacharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0004>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0125>
+
+    Annotations: 
+        rdfs:label "Mitotic recombination; Aspergillus nidulans"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0035>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0126>
+
+    Annotations: 
+        rdfs:label "Rec-assay, DNA effects (bacterial DNA repair); Escherichia coli polA (W3119 vs P3478)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0011>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0127>
+
+    Annotations: 
+        rdfs:label "Rec-assay, DNA effects (bacterial DNA repair); Escherichia coli polA (W3110 vs P3478)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0011>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0128>
+
+    Annotations: 
+        rdfs:label "Rec-assay, spot test, DNA effects (bacterial DNA repair); Bacillus subtilis (H17 vs M45T)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0032>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0129>
+
+    Annotations: 
+        rdfs:label "Rec-assay, spot test, DNA effects (bacterial DNA repair); Bacillus subtilis (H17 vs M45)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0032>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0028>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations in vitro"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0003>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0029>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation at the HPRT locus"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0031>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0024>
+
+    Annotations: 
+        rdfs:label "Aneuploidy, partial sex chromosome loss, chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0027>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0025>
+
+    Annotations: 
+        rdfs:label "Dominant lethal test"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0023>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0026>
+
+    Annotations: 
+        rdfs:label "Tryptophan reverse gene mutation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0008>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0027>
+
+    Annotations: 
+        rdfs:label "Aneuploidy, chromosome aberrations"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0003>
+    
+    

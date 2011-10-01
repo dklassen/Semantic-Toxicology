@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog id="XML Catalog File (see http://www.oasis-open.org/committees/entity/spec-2001-08-06.html) - Created By Protege 4" prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="genid0" uri="genetox_instances.owl"/>
+    <group id="Folder Repository, directory=/Users/dana/Dropbox/thesis/project files/Semantic-Toxicology/semantic_feature_vectors/ontologies, Auto-Update=true" prefer="public" xml:base=""/>
+</catalog>

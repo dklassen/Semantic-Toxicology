@@ -1,0 +1,6 @@
+source :rubygems
+
+gem 'rdf'
+gem 'rdf-n3'
+gem 'sparql-client'
+gem 'rdf-raptor'
