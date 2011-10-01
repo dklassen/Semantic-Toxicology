@@ -8,6 +8,7 @@ Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
 
 
 Ontology: 
+Import: <http://semanticscience.org/resource/genetox.owl>
 
 Class: <http://semanticscience.org/ontology/genetox:Genetox_0006>
 
