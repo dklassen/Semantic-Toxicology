@@ -7,7 +7,7 @@ Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
 
 
 
-Ontology: <http://semanticscience.org/resource/genetox>
+Ontology: <http://semanticscience.org/resource/genetox.owl>
 <EOF>
 
 AnnotationProperty: rdfs:label
@@ -59,6 +59,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0104>
         <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
+Class: <http://semanticscience.org/resource/genetox:Genetox_0030>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, host-mediated assay"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0103>
 
     Annotations: 
@@ -67,15 +76,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0103>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0048>
-    
-    
-Class: <http://semanticscience.org/resource/genetox:Genetox_0030>
-
-    Annotations: 
-        rdfs:label "Forward and reverse gene mutation, host-mediated assay"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0016>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0102>
@@ -116,15 +116,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0108>
         <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
-Class: <http://semanticscience.org/resource/genetox:Genetox_0034>
-
-    Annotations: 
-        rdfs:label "Sperm morphology"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0046>
-    
-    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0107>
 
     Annotations: 
@@ -133,6 +124,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0107>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0034>
+
+    Annotations: 
+        rdfs:label "Sperm morphology"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0046>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0031>
@@ -154,6 +154,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0106>
         <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
+Class: <http://semanticscience.org/resource/genetox:Genetox_0032>
+
+    Annotations: 
+        rdfs:label "Rec-assay, spot test, DNA effects (bacterial DNA repair)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0045>
+    
+    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0105>
 
     Annotations: 
@@ -162,15 +171,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0105>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0048>
-    
-    
-Class: <http://semanticscience.org/resource/genetox:Genetox_0032>
-
-    Annotations: 
-        rdfs:label "Rec-assay, spot test, DNA effects (bacterial DNA repair)"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0045>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0038>
@@ -881,15 +881,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0137>
         <http://semanticscience.org/resource/genetox:Genetox_0016>
     
     
-Class: <http://semanticscience.org/resource/genetox:Genetox_0078>
-
-    Annotations: 
-        rdfs:label "Human lymphocytes or leukocytes"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0048>
-    
-    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0134>
 
     Annotations: 
@@ -897,6 +888,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0134>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0016>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0078>
+
+    Annotations: 
+        rdfs:label "Human lymphocytes or leukocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0077>
@@ -1027,15 +1027,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0140>
         <http://semanticscience.org/resource/genetox:Genetox_0030>
     
     
-Class: <http://semanticscience.org/resource/genetox:Genetox_0149>
-
-    Annotations: 
-        rdfs:label "Forward gene mutation; Saccharomyces cerevisiae"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0017>
-    
-    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0085>
 
     Annotations: 
@@ -1043,6 +1034,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0085>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0149>
+
+    Annotations: 
+        rdfs:label "Forward gene mutation; Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0017>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0084>
@@ -1111,6 +1111,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0146>
         <http://semanticscience.org/resource/genetox:Genetox_0043>
     
     
+Class: <http://semanticscience.org/resource/genetox:Genetox_0147>
+
+    Annotations: 
+        rdfs:label "Forward and reverse gene mutation, mitotic recombination and gene conversion, DNA effects, host-mediated assay; Salmonella typhimurium, Saccharomyces cerevisiae"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0043>
+    
+    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0087>
 
     Annotations: 
@@ -1121,13 +1130,14 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0087>
         <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
-Class: <http://semanticscience.org/resource/genetox:Genetox_0147>
+Class: <http://semanticscience.org/resource/genetox:Genetox_0086>
 
     Annotations: 
-        rdfs:label "Forward and reverse gene mutation, mitotic recombination and gene conversion, DNA effects, host-mediated assay; Salmonella typhimurium, Saccharomyces cerevisiae"@
+        rdfs:label "Chinese hamster ovary (CHO)"@,
+        rdfs:label "Genetox_0086"@
     
     SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0043>
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0148>
@@ -1137,16 +1147,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0148>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0037>
-    
-    
-Class: <http://semanticscience.org/resource/genetox:Genetox_0086>
-
-    Annotations: 
-        rdfs:label "Chinese hamster ovary (CHO)"@,
-        rdfs:label "Genetox_0086"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0002>
@@ -1340,15 +1340,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0098>
         <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
-Class: <http://semanticscience.org/resource/genetox:Genetox_0097>
-
-    Annotations: 
-        rdfs:label "Plant"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0048>
-    
-    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0115>
 
     Annotations: 
@@ -1356,6 +1347,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0115>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0028>
+    
+    
+Class: <http://semanticscience.org/resource/genetox:Genetox_0097>
+
+    Annotations: 
+        rdfs:label "Plant"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0112>
@@ -1367,6 +1367,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0112>
         <http://semanticscience.org/resource/genetox:Genetox_0038>
     
     
+Class: <http://semanticscience.org/resource/genetox:Genetox_0113>
+
+    Annotations: 
+        rdfs:label "Chromosome aberrations in vitro; Human lymphocytes or leukocytes"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0028>
+    
+    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0099>
 
     Annotations: 
@@ -1375,15 +1384,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0099>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0048>
-    
-    
-Class: <http://semanticscience.org/resource/genetox:Genetox_0113>
-
-    Annotations: 
-        rdfs:label "Chromosome aberrations in vitro; Human lymphocytes or leukocytes"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0028>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0094>
@@ -1478,6 +1478,15 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0090>
         <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
+Class: <http://semanticscience.org/resource/genetox:Genetox_0092>
+
+    Annotations: 
+        rdfs:label "Escherichia coli polA (W3110 vs P3478)"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/genetox:Genetox_0048>
+    
+    
 Class: <http://semanticscience.org/resource/genetox:Genetox_0017>
 
     Annotations: 
@@ -1487,10 +1496,11 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0017>
         <http://semanticscience.org/resource/genetox:Genetox_0016>
     
     
-Class: <http://semanticscience.org/resource/genetox:Genetox_0092>
+Class: <http://semanticscience.org/resource/genetox:Genetox_0091>
 
     Annotations: 
-        rdfs:label "Escherichia coli polA (W3110 vs P3478)"@
+        rdfs:label "Escherichia coli WP2"@,
+        rdfs:label "Genetox_0091"@
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0048>
@@ -1503,16 +1513,6 @@ Class: <http://semanticscience.org/resource/genetox:Genetox_0018>
     
     SubClassOf: 
         <http://semanticscience.org/resource/genetox:Genetox_0013>
-    
-    
-Class: <http://semanticscience.org/resource/genetox:Genetox_0091>
-
-    Annotations: 
-        rdfs:label "Escherichia coli WP2"@,
-        rdfs:label "Genetox_0091"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/genetox:Genetox_0048>
     
     
 Class: <http://semanticscience.org/resource/genetox:Genetox_0015>

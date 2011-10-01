@@ -78,9 +78,6 @@ class FeatureVectorGenerator
       
     end
     
-    def infer_instances
-      
-    end
     
     # build a set of feature fectors with attributes starting from most specialized
     # move up generalized classes by input distance.
